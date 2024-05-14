@@ -4,8 +4,75 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Purrfect match</title>
+    <script defer src="script.mjs"></script>
+  </head>
 </head>
 <body>
   <h1>If you were a cat, what would you look like? Find out!</h1>  
+  <table>
+    <tr>
+      <td>
+        <table>
+          <tr><td colspan="2">Step 1. Tell us a little about yourself:</td></tr>
+          <tr>
+            <td>Adaptability</td>
+            <td>
+              <select name="adaptability" id="adaptability">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Affection</td>
+            <td>
+              <select name="affection" id="affection">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Energy</td>
+            <td>
+              <select name="energy" id="energy">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Intelligence</td>
+            <td>
+              <select name="intelligence" id="intelligence">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>                
+              </select>
+            </td>
+          </tr>        
+          <tr>
+            <td colspan="2">Step 2. <input type="button" name="find_button" id="find_button" value="Find out"/></td>
+          </tr>
+        </table>
+      </td>
+      <td>
+        <div><img id="cat_image" height="400px"></div>
+        <div id="breed_name"></div>
+        <div id="breed_description"></div>
+      </td>
+    </tr>
+  </table>
 </body>
 </html>
