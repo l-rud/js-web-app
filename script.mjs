@@ -1,5 +1,7 @@
 import {getBreeds} from './api.mjs'
 import {getRandomCatInfo} from './api.mjs'
+import {calculateMatch} from './util.mjs'
+import {sortBreeds} from './util.mjs'
 
 const findButton = document.getElementById('find_button');
 findButton.addEventListener('click', () => {
@@ -8,6 +10,14 @@ findButton.addEventListener('click', () => {
     .then(result => {
       const breeds = JSON.parse(result);
       
+      sortBreeds(document, breeds);
+
+      // testing matching function
+      breeds.forEach(element => {
+        const match = calculateMatch(document, element);
+        console.log("Matching index for " + element.name + ": " + match)
+      });
+
       getRandomCatInfo(breeds[0].id)
       .then(response => response.text())
       .then(result => {
