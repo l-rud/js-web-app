@@ -1,4 +1,62 @@
 body {
-    background-image: url('images/pinkSky.jpg');
-    background-size: cover;
-  }
+  background-image: url('images/pinkSky.jpg');
+  background-size: cover;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+td {
+  padding: 10px;
+}
+
+select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+input[type="button"] {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input[type="button"]:hover {
+  background-color: #45a049;
+}
+
+#cat_image {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+}
+
+#breed_name {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#breed_description {
+  text-align: center;
+  margin-top: 10px;
+}
