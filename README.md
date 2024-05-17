@@ -25,4 +25,4 @@ Take a moment to read about your feline counterpart and enjoy seeing which cat b
 Have fun with the process! This application is meant for entertainment purposes and to spark curiosity.
 Feel free to share your results with friends and family to see if they agree with your cat counterpart.
 Remember, the results are based on your self-rated attributes and may not perfectly reflect reality, but they're sure to provide some amusement and insight into your personality.
-Ready to find out which cat breed represents you best? Start by rating yourself and clicking "Find out!" to uncover your feline match!
+Ready to find out which cat breed represents you best? [Go to the "Purrfect match" web application,](https://l-rud.github.io/purrfect-match-web-app/) start by rating yourself and clicking "Find out!" to uncover your feline match!
